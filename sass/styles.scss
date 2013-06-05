@@ -1,0 +1,651 @@
+// Global values
+// --------------------------------------------------
+
+
+
+//Alignment
+//====================
+.middleAlign{
+  vertical-align: middle;
+  }
+
+// Grays
+// -------------------------
+$black:                 #000 !default;
+$grayDarker:            #222 !default;
+$grayDark:              #333 !default;
+$gray:                  #555 !default;
+$grayLight:             #999 !default;
+$grayLighter:           #eee !default;
+$cream:									#FAFAFA !default;
+$white:                 #fff !default;
+$abcGreen: #00AD7F;
+$btnPrimaryBackground: green;
+$navbarBackgroundHighlight: $abcGreen;
+$navbarBackground: $abcGreen;
+$navbarText: white;
+
+
+// Accent colors
+// -------------------------
+$lightBlue:             #6282CB !default;
+$blue:                  #049cdb !default;
+$blueDark:              #0064cd !default;
+$green:                 #46a546 !default;
+$red:                   #9d261d !default;
+$yellow:                #ffc40d !default;
+$orange:                #f89406 !default;
+$pink:                  #c3325f !default;
+$purple:                #7a43b6 !default;
+$eggBlue:               #5E99C9 !default;
+
+
+// Scaffolding
+// -------------------------
+$bodyBackground:        $white !default;
+$textColor:             $white !default;
+
+
+
+// Links
+// -------------------------
+$linkColor:             #08c !default;
+$linkColorHover:        lighten($linkColor, 15%) !default;
+
+
+// Typography
+// -------------------------
+@import url(http://fonts.googleapis.com/css?family=Quicksand:300,400,700);
+$sansFontFamily:      'Raleway', sans-serif;
+@import url(http://fonts.googleapis.com/css?family=Satisfy);
+@import url(http://fonts.googleapis.com/css?family=Playfair+Display);
+@import url(http://fonts.googleapis.com/css?family=Raleway:400,800);
+$cursiveFontFamily: 'Satisfy', sans-serif;
+
+
+$serifFontFamily:       'Quicksand';
+$monoFontFamily:        Monaco, Menlo, Consolas, "Courier New", monospace !default;
+
+$baseFontSize:          18px !default;
+$baseFontFamily:        $sansFontFamily !default;
+$baseLineHeight:        20px !default;
+$altFontFamily:         $serifFontFamily !default;
+
+$headingsFontFamily:    inherit !default; // empty to use BS default, $baseFontFamily
+$headingsFontWeight:    bold !default;    // instead of browser default, bold
+$headingsColor:         inherit !default; // empty to use BS default, $textColor
+
+$codeColor:							$cream;
+$codeBackground:				black;
+
+
+
+// Component sizing
+// -------------------------
+// Based on 14px font-size and 20px line-height
+
+$fontSizeLarge:         $baseFontSize * 1.25; // ~18px
+$fontSizeSmall:         $baseFontSize * 0.85; // ~12px
+$fontSizeMini:          $baseFontSize * 0.75; // ~11px
+
+$paddingLarge:          11px 19px !default; // 44px
+$paddingSmall:          2px 10px !default;  // 26px
+$paddingMini:           0px 6px !default;   // 22px
+
+$baseBorderRadius:      4px !default;
+$borderRadiusLarge:     6px !default;
+$borderRadiusSmall:     3px !default;
+
+
+//-------------------------------------------------------------------------
+//Importing default CSS
+
+
+@import 'bootstrap';
+
+@import 'bootstrap-responsive';
+
+
+
+//-------------------------------------------------------------------------
+
+//Body and footer styles
+body{
+	padding-top: 90px;
+  color: #5a5a5a;
+  padding-bottom:0px;
+ 
+}
+
+.footer{
+  height:60px;
+	margin-bottom:0px;
+  margin-top:40px;
+  padding: 5px 5px 5px 5px;
+	color:$cream;
+	background-color: $grayLight;
+  width:100%;
+	a{
+		color: black;
+		&:hover{color:$blueDark;}
+	}
+}
+
+
+.hero-unit{
+  color:white;
+/* IE10 Consumer Preview */ 
+background-image: -ms-radial-gradient(right top, ellipse farthest-corner, #666666 0%, #626661 100%);
+
+/* Mozilla Firefox */ 
+background-image: -moz-radial-gradient(right top, ellipse farthest-corner, #666666 0%, #626661 100%);
+
+/* Opera */ 
+background-image: -o-radial-gradient(right top, ellipse farthest-corner, #666666 0%, #626661 100%);
+
+/* Webkit (Safari/Chrome 10) */ 
+background-image: -webkit-gradient(radial, right top, 0, right top, 994, color-stop(0, #666666), color-stop(1, #626661));
+
+/* Webkit (Chrome 11+) */ 
+background-image: -webkit-radial-gradient(right top, ellipse farthest-corner, #666666 0%, #626661 100%);
+
+/* W3C Markup, IE10 Release Preview */ 
+background-image: radial-gradient(ellipse farthest-corner at right top, #666666 0%, #626661 100%);
+}
+.container{
+	overflow:hidden;
+  
+}
+
+#tab-walls{
+
+  margin-bottom:40px;
+  margin-top:40px;
+  
+  padding:20px;
+}
+
+/* Required for jQuery Masonry */
+
+.box {
+    margin: 5px;
+    padding: 5px;
+    font-size: 11px;
+    line-height: 1.4em;
+    float: left;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 10px #444;
+    width: 214px;
+}
+
+.box img {
+    width: 100%;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
+
+.description {
+    margin: 10px 0 5px;
+}
+//  .tabbable, {
+//     border:10px $grayLight solid;
+// }
+
+.page-header{
+  font-family:$cursiveFontFamily;
+  font-weight:bolder;
+  font-size:75px;
+  padding-left:10px;
+  line-height:75px;
+}
+
+#downloadsBody{
+  min-height:1600px;
+}
+
+#shippingContainer{
+  font-family:$serifFontFamily;
+  border: 10px $grayLight dotted;
+  
+}
+#termsContainer{
+  font-family:$serifFontFamily;
+  min-height:600px;
+ 
+}
+
+.thumbnail{
+  
+  &:hover{border:$eggBlue 3px solid;}
+  font-size: .9em;
+  
+}
+
+
+/*custom buttom  
+__________________________________________________*/
+.btn-custom-lighten {
+  &.active {
+    color: rgba(255, 255, 255, 0.75);
+  }
+  color: #ffffff;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+  background-color: #304991;
+  background-image: -moz-linear-gradient(top, #2b4182, #3854a8);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#2b4182), to(#3854a8));
+  background-image: -webkit-linear-gradient(top, #2b4182, #3854a8);
+  background-image: -o-linear-gradient(top, #2b4182, #3854a8);
+  background-image: linear-gradient(to bottom, #2b4182, #3854a8);
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff2b4182', endColorstr='#ff3854a8', GradientType=0);
+  border-color: #3854a8 #3854a8 #25376f;
+  border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+  *background-color: #3854a8;
+  /* Darken IE7 buttons by default so they stand out more given they won't have borders */
+  filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);
+    &:hover, &:focus, &:active, &.active, &.disabled, &[disabled] {
+      color: #ffffff;
+      background-color: #3854a8;
+      *background-color: #314b95;
+    }
+    &:active, &.active {
+      background-color: #2b4182;
+    }
+}
+
+.btn-custom-darken {
+  &.active {
+    color: rgba(255, 255, 255, 0.75);
+  }
+  color: #ffffff;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+  background-color: #263973;
+  background-image: -moz-linear-gradient(top, #2b4182, #1e2e5c);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#2b4182), to(#1e2e5c));
+  background-image: -webkit-linear-gradient(top, #2b4182, #1e2e5c);
+  background-image: -o-linear-gradient(top, #2b4182, #1e2e5c);
+  background-image: linear-gradient(to bottom, #2b4182, #1e2e5c);
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff2b4182', endColorstr='#ff1e2e5c', GradientType=0);
+  border-color: #1e2e5c #1e2e5c #0b1122;
+  border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+  *background-color: #1e2e5c;
+  /* Darken IE7 buttons by default so they stand out more given they won't have borders */
+  filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);
+  &:hover, &:focus, &:active, &.active, &.disabled, &[disabled] {
+    color: #ffffff;
+    background-color: #1e2e5c;
+    *background-color: #182449;
+  }
+  &:active, &.active {
+    background-color: #121b35;
+  }
+}
+
+
+
+ /* CUSTOMIZE THE NAVBAR
+     -------------------------------------------------- */
+.navbar{
+	z-index:50;
+  font-size: .72em;
+  font-weight:bold;
+  .nav > li > a {
+    padding: 15px 20px;
+  }
+  .btn-navbar {
+    margin-top: 10px;
+  }
+	.navbar-inner {
+    -webkit-box-shadow: 0 2px 10px rgba(0,0,0,.25);
+       -moz-box-shadow: 0 2px 10px rgba(0,0,0,.25);
+            box-shadow: 0 2px 10px rgba(0,0,0,.25);
+		border:0;
+    padding-left:40px;
+    padding-right:40px;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+	}
+	.brand{
+		color:black;
+    font-family:$cursiveFontFamily;
+		font-size:26px;
+		padding: 14px 20px 16px; /* Increase vertical padding to match navbar links */
+    font-weight: bold;
+    text-shadow: 0 -1px 0 rgba(0,0,0,.5);
+		&:hover{
+			color:white;
+		}
+  }
+
+    .stttrong{
+    color: white;
+    font-weight:bold;
+    a{
+    &:hover{
+      text-decoration:underline;
+      color:red;
+      font-weight:bold;
+      }
+    }
+    }
+	
+  .productImages{
+    img{
+      height:30px;
+    }
+  }
+
+
+
+	#menuBar{
+    padding:0;
+    margin-top:none;
+    overflow:visible;
+
+    li{
+      position: relative; 
+      float: left;
+  list-style: none;
+    a{
+        display: block;
+        text-decoration:none;
+        &:hover{
+          background-color:$abcGreen;
+          text-decoration:underline;
+          color:white;
+          font-weight:bold;
+        }
+
+      }
+    
+    }
+    a{
+      color: black;
+    }
+
+		ul{
+      ul{
+        position: absolute;
+        visibility: hidden;
+        
+      }
+			li{
+        &:hover{
+          ul{
+            visibility:visible;
+            text-decoration:underline;
+            color:white;
+            font-weight:bold;
+          }
+        }
+
+      }
+		}
+	}
+}
+    /* Special class on .container surrounding .navbar, used for positioning it into place. */
+    .navbar-wrapper {
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      z-index: 30;
+      padding-bottom:10 px;
+      margin-bottom: -90px; /* Negative margin to pull up carousel. 90px is roughly margins and height of navbar. */
+    }
+
+    /* CUSTOMIZE THE CAROUSEL
+    -------------------------------------------------- */
+
+    /* Carousel base class */
+    .carousel {
+      margin-bottom: 40px;
+      background: $abcGreen;
+      background-image: url("zenbg-1.png"), url("zenbg-2.png");
+      background-repeat: repeat-x, repeat;
+      border-radius:20px;
+    
+    }
+
+    .carousel .container {
+      position: relative;
+      z-index: 9;
+      border-radius:20px;
+    }
+
+    .carousel-control {
+      height: 80px;
+      margin-top: 0;
+      font-size: 120px;
+      text-shadow: 0 1px 1px rgba(0,0,0,.4);
+      background-color: transparent;
+      border: 0;
+      z-index: 10;
+      border-radius:20px;
+    }
+
+    .carousel .item {
+      height: 500px;
+      border-radius:20px;
+
+    }
+    .carousel img {
+      position: absolute;
+      top: 0;
+      left: 0;
+      min-width: 100%;
+      height: 500px;
+      border-radius:20px;
+
+    }
+
+    .carousel iframe {
+      position: absolute;
+      top: 0;
+      left: 0;
+      min-width: 100%;
+      height: 500px;
+      border-radius:20px;
+
+    }
+
+    .carousel-caption {
+      background-color: transparent;
+      position: static;
+      max-width: 800px;
+      padding: 0 20px;
+      margin-top: 150px;
+    }
+    .carousel-caption h1,
+    .carousel-caption .lead {
+      margin: 0;
+      line-height: 1.25;
+      color:#fff;
+      text-shadow: 0 1px 1px rgba(0,0,0,.4);
+    }
+    .carousel-caption .btn {
+      margin-top: 10px;
+    }
+
+
+
+
+    /* MARKETING CONTENT
+    -------------------------------------------------- */
+
+    /* Center align the text within the three columns below the carousel */
+    .marketing .span4 {
+      text-align: center;
+    }
+    .marketing h2 {
+      font-weight: normal;
+    }
+    .marketing .span4 p {
+      margin-left: 10px;
+      margin-right: 10px;
+    }
+
+
+    /* Featurettes
+    ------------------------- */
+
+    .featurette-divider {
+      margin: 50px 0; /* Space out the Bootstrap <hr> more */
+    }
+    .featurette {
+    	font-family:$serifFontFamily;
+      padding-top: 140px; /* Vertically center images part 1: add padding above and below text. */
+      overflow: hidden; /* Vertically center images part 2: clear their floats. */
+    }
+    .featurette-image {
+      margin-top: -120px; /* Vertically center images part 3: negative margin up the image the same amount of the padding to center it. */
+    }
+
+    /* Give some space on the sides of the floated elements so text doesn't run right into it. */
+    .featurette-image.pull-left {
+      margin-right: 20px;
+    }
+    .featurette-image.pull-right {
+      margin-left: 20px;
+    }
+
+    /* Thin out the marketing headings */
+    .featurette-heading {
+      font-size: 40px;
+      font-weight: 270;
+      line-height: 1;
+      letter-spacing: -1px;
+    }
+
+  /* Image CSS
+    -------------------------------------------------- */
+
+    .largePhoto{
+      min-height:380px;
+      margin:auto;
+      float:none;
+    }
+
+    /* RESPONSIVE CSS
+    -------------------------------------------------- */
+     @media(max-width:1200px){
+      .mainBlock{
+      margin-top:100px;
+        }
+      }
+
+    @media(max-width:1096px){
+      .mainBlock{
+      margin-top:200px;
+      }
+
+    }
+
+     @media (max-width: 1023px) {
+      .mainBlock{
+        margin-top:180px;
+      }
+      .emailAddress{visibility:hidden;}
+     }    
+
+    @media (max-width: 979px) {
+    .mainBlock{
+      margin-top:200px;
+     }
+     .phoneNumber,.emailAddress{
+     visibility:hidden;
+     }
+      .container{
+        height:100%;
+      
+      }
+
+      .container.navbar-wrapper {
+        margin-bottom: 0;
+        width: auto;
+ 
+        
+      }
+      .navbar-inner {
+        border-radius: 0;
+        margin: 0px 0;
+      }
+
+      .carousel .item {
+        height: 500px;
+      }
+      .carousel img {
+        width: auto;
+        height: 500px;
+      }
+
+      .featurette {
+        height: auto;
+        padding: 0;
+      }
+      .featurette-image.pull-left,
+      .featurette-image.pull-right {
+        display: block;
+        float: none;
+        max-width: 40%;
+        margin: 0 auto 20px;
+      }
+    }
+
+
+    @media (max-width: 767px) {
+       .page-header{
+        margin-top:150px;
+       }
+
+       .phoneNumber, .emailAddress{
+         visibility:hidden;
+         }
+      .navbar-inner {
+        margin: 0;
+      }
+
+      .carousel {
+        margin-left: -20px;
+        margin-right: -20px;
+      }
+      .carousel .container {
+
+      }
+      .carousel .item {
+        height: 300px;
+      }
+      .carousel img {
+        height: 300px;
+      }
+      .carousel-caption {
+        width: 65%;
+        padding: 0 70px;
+        margin-top: 100px;
+      }
+      .carousel-caption h1 {
+        font-size: 30px;
+      }
+      .carousel-caption .lead,
+      .carousel-caption .btn {
+        font-size: 18px;
+      }
+
+      .marketing .span4 + .span4 {
+        margin-top: 40px;
+      }
+
+      .featurette-heading {
+        font-size: 30px;
+      }
+      .featurette .lead {
+        font-size: 18px;
+        line-height: 1.5;
+      }
+
+    }
+
