@@ -23,6 +23,7 @@
   ga('send', 'pageview');
 
 </script>
+
     <script type="text/javascript" src="http://platform.twitter.com/widgets.js"></script>
     <script src="javascripts/jquery.js"></script>
     <script src="http://code.jquery.com/jquery-latest.min.js"></script>

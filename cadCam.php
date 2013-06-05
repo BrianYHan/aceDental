@@ -1,5 +1,5 @@
 <head>
-  <title>CAD/CAM | Ace Dental Lab| The Best Dental Lab in Southern California | Product List | CAD/CAM | Zirconia | Lava | Crown | Bridge</title>
+    <title>CAD/CAM crowns, crown lays, veneers, inlays and onlays, fixed bridges, dental implant restorations and orthodontic appliances</title>
   <link href="stylesheets/styles.css" media="screen, projection" rel="stylesheet" type="text/css" />
   <link href="//netdna.bootstrapcdn.com/font-awesome/3.1.1/css/font-awesome.css" rel="stylesheet">
 

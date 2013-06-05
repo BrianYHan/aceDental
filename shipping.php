@@ -1,6 +1,6 @@
 <html>
 <head>
-   <title>Shipping</title>
+  <title>Free Shipping for all Ace Dental Customers!</title>
   <link href="stylesheets/styles.css" media="screen, projection" rel="stylesheet" type="text/css" />
      <link href="//netdna.bootstrapcdn.com/font-awesome/3.1.1/css/font-awesome.css" rel="stylesheet">
 
@@ -68,7 +68,7 @@
     </div>
     <div class="span9">
       <p class="lead">
-        We currently offer <strong><span class="text-success">FREE</span></strong> complementary NEXT-DAY delivery service to <strong>Los Angeles, Orange, San Diego, Riverside, San Bernardino, and Santa Barbara county. </strong> 
+        We currently offer <strong><span class="text-success">FREE</span></strong> complementary NEXT-DAY delivery service to <strong>California, Nevada, and Arizona!. </strong> 
       </p>
 
       <p >

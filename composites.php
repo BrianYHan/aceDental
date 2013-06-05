@@ -1,9 +1,11 @@
 <html>
 <head>
-  <title>Composites | Ace Dental Lab| The Best Dental Lab in Southern California | Product List | CAD/CAM | Zirconia | Lava | Crown | Bridge</title>
+    <title>Composites - Zirconia, Professional, Affordable Design | Ace Dental Labs</title>
+    <meta name="description" content="In addition to our composite aesthetic restorations, Ace Dental Laboratory offers a variety of fixed and removable prosthesis such as: ProceraÂ®, Lavaâ„¢, IPS e.maxÂ®, Captekâ„¢, PFM, FCG, Implants, Clip-On Veneers, ValplastÂ®, Full Acrylic Denture and Metal Partial Denture. ">
   <link href="stylesheets/styles.css" media="screen, projection" rel="stylesheet" type="text/css" />
   <link href="//netdna.bootstrapcdn.com/font-awesome/3.1.1/css/font-awesome.css" rel="stylesheet">
-
+</head>
+<body>
    <meta name="google-site-verification" content="6owQJifMWTp_zKfTDXgZ_9hHgSzqPPWxQ0nDjEDDf_A" />
       <script type="text/javascript">
 
@@ -16,7 +18,6 @@
           ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
           var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
         })();
-
       </script>
       <!-- Start of StatCounter Code for Default Guide -->
       <script type="text/javascript">
@@ -37,8 +38,8 @@
         </div>
     </noscript>
     <!-- End of StatCounter Code for Default Guide -->
-  </head>
-<body>
+
+
 <?php include("header.php"); ?>
 	<div class="container mainBlock">
 	<h1 class="page-header">Composites</h1>

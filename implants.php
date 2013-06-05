@@ -1,10 +1,38 @@
 <html>
 <head>
-  <title>Implants | Partials | Removables | CAD/CAM | Ace Dental Lab| The Best Dental Lab in Southern California | Product List | CAD/CAM | Zirconia | Lava | Crown | Bridge Ace Dental Lab | The Best Dental Lab in Southern California | Product List | Dentures | Partials | Removables| CAD/CAM | Zirconia | Lava | Crown | Bridge Ace Dental Lab | The Best Dental Lab in Southern California | Product List | Implants | Zirconia | Lava | Crown | Bridge | Procera | Lava|Procera | Lava | Captek | Ceramage zirconia Composites| PFM, FCG | Implants | Valplast | Clip-On Veneers | Full Acrylic Denture and Metal Partial Denture.Captek| Ceramage zirconia Composites | PFM | FCG | Implants | Valplast | Clip-On Veneers| Full Acrylic Denture and Metal Partial Denture."</title>
+  <title>Dental Implant Lab - Transitional Implants, Bioaesthetic Abutments, Titanium and Zirconia abutments</title>
   <link href="stylesheets/styles.css" media="screen, projection" rel="stylesheet" type="text/css" />
   <link href="//netdna.bootstrapcdn.com/font-awesome/3.1.1/css/font-awesome.css" rel="stylesheet">
   </head>
 <body>
+  <meta name="google-site-verification" content="6owQJifMWTp_zKfTDXgZ_9hHgSzqPPWxQ0nDjEDDf_A" />
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-30446935-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+<!-- Start of StatCounter Code for Default Guide -->
+<script type="text/javascript">
+var sc_project=7879873; 
+var sc_invisible=1; 
+var sc_security="8ad84981"; 
+</script>
+<script type="text/javascript"
+src="http://www.statcounter.com/counter/counter.js"></script>
+<noscript><div class="statcounter"><a title="web counter"
+href="http://statcounter.com/free-hit-counter/"
+target="_blank"><img class="statcounter"
+src="http://c.statcounter.com/7879873/0/8ad84981/1/"
+alt="web counter"></a></div></noscript>
+<!-- End of StatCounter Code for Default Guide -->
 <?php include("header.php"); ?>
 
 <div class="container mainBlock">

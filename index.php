@@ -1,6 +1,7 @@
 <html>
 
 <head>
+  <title>Orange County Dental Lab - The Best Dental Lab in the U.S.A! | Ace Dental Labs</title>
    <link href="stylesheets/styles.css" media="screen, projection" rel="stylesheet" type="text/css" />
    <link href="//netdna.bootstrapcdn.com/font-awesome/3.1.1/css/font-awesome.css" rel="stylesheet">
    <script src="http://code.jquery.com/jquery-latest.js"></script>

@@ -1,6 +1,7 @@
 
 <html>
 <head>
+  <title>About Ace Dental Labs</title>
   <link href="stylesheets/styles.css" media="screen, projection" rel="stylesheet" type="text/css" />
    <script type="text/javascript" src="http://platform.twitter.com/widgets.js"></script>
     <script src="javascripts/jquery.js"></script>

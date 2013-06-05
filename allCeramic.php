@@ -1,5 +1,5 @@
 <head>
-  <title>All Ceramic Crowns and Bridges | Ace Dental Lab</title>
+    <title>All Ceramic Crowns, Bridges, and Veneers | Ace Dental Lab</title>
   <link href="stylesheets/styles.css" media="screen, projection" rel="stylesheet" type="text/css" />
   <link href="//netdna.bootstrapcdn.com/font-awesome/3.1.1/css/font-awesome.css" rel="stylesheet">
 

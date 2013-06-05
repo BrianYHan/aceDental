@@ -2,6 +2,7 @@
 <html>
 
 <head>
+  <title>Monthly Dental Coupons - Amazing Deals! Ace Dental Labs</title>
    <link href="stylesheets/styles.css" media="screen, projection" rel="stylesheet" type="text/css" />
    <link href="//netdna.bootstrapcdn.com/font-awesome/3.1.1/css/font-awesome.css" rel="stylesheet">
 
